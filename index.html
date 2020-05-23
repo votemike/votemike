@@ -56,6 +56,7 @@
             "@context": "https://schema.org",
             "@type": "Person",
             "alumniOf": {
+                "@type": "https://schema.org/EducationalOrganization",
                 "name": "University of Reading",
                 "url": "https://www.reading.ac.uk/"
             },
@@ -63,11 +64,22 @@
             "familyName": "Gwynne",
             "hasOccupation": {
                 "experienceRequirements": ["React", "PHP"],
-                "name": "Web Developer"
+                "name": "Web Developer",
+                "estimatedSalary": {
+                    "currency": "GBP",
+                    "value": 100000
+                },
+                "occupationLocation": {
+                    "@type": "Country",
+                    "name": "UK"
+                },
+                "description": "Creating and maintaining websites",
+                "mainEntityOfPage": "https://en.wikipedia.org/wiki/Web_developer"
             },
             "knowsAbout": "Web Development",
             "nationality": "British",
             "owns": {
+                "@type": "OwnershipInfo",
                 "additionalType": "Corporation",
                 "name": "Parasol Corp",
                 "url": "https://parasolcorp.co.uk"
@@ -81,7 +93,7 @@
                 "https://beta.companieshouse.gov.uk/officers/M6X0IciGY0kE5fZlo1lLqqUkKSc/appointments",
                 "https://open.spotify.com/user/11941092"
             ],
-            "url": "https://votemike.co.uk/"
+            "url": "https://votemike.co.uk"
         }
     </script>
 </head>
